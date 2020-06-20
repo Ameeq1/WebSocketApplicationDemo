@@ -41,6 +41,7 @@ namespace WebSocketApplicationDemo
             });
 
             app.UseWebSockets();
+
             var wsOptions = new WebSocketOptions()
             {
                 KeepAliveInterval = TimeSpan.FromSeconds(120),
