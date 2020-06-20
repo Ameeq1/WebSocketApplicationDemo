@@ -22,6 +22,7 @@ namespace WebSocketApplicationDemo
             //    .Build();
 
             //host.Run();
+            // this is second test
             CreateHostBuilder(args).Build().Run();
             // This is master change
         }
